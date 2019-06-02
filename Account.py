@@ -22,3 +22,5 @@ class Account():
     def transfer(self, amount):
         self.balance += amount
         print("Your balance changed: " + str(self.balance))
+        return self.getBalance()
+
